@@ -1,8 +1,9 @@
 import { createContext, useState, useEffect } from "react";
 
 const NoteContext = createContext();
- 
- const API_URL = "https://ca2fbd96142ff9399644.free.beeceptor.com/api/notes/";
+
+// Usar variable de entorno para la URL de la API
+const API_URL = import.meta.env.VITE_API_URL;
 
 function NoteProvider(props) {
     const [notes, setNotes] = useState([]);
