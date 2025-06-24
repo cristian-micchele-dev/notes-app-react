@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { NoteProvider } from './context/note.context'
 
 createRoot(document.getElementById('root')).render(
- /*  <StrictMode> */
+   <StrictMode> 
 
     <BrowserRouter>
     <NoteProvider>
@@ -15,5 +15,5 @@ createRoot(document.getElementById('root')).render(
     </NoteProvider>
     </BrowserRouter>
     
-  /* </StrictMode>, */
+   </StrictMode>
 )
