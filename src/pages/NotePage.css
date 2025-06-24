@@ -1,0 +1,50 @@
+/* Fondo nórdico/vikingo para NotePage */
+#notes-page {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-498c-61f7-a150-9d27c9a9064a/raw?se=2025-06-24T01%3A16%3A32Z&sp=r&sv=2024-08-04&sr=b&scid=cb7ede28-4eb3-5a95-abb9-49b0c8a2e8d4&skoid=71e8fa5c-90a9-4c17-827b-14c3005164d6&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-23T09%3A22%3A01Z&ske=2025-06-24T09%3A22%3A01Z&sks=b&skv=2024-08-04&sig=b%2B2Rv0Zk1IrjEZnzh/nqfX05yCUmGFNYo0DIyCrbbw4%3D'); /* Fondo nórdico: fiordo, montañas y niebla */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 0 100vw rgba(30, 30, 40, 0.22) inset;
+}
+
+.title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'UnifrakturCook', 'Georgia', serif;
+    font-size: 2.5rem;
+    color: #2d2d2d;
+    text-shadow: 1px 2px 8px #e0e7ef;
+}
+
+.note-list {
+    background: rgba(245, 245, 245, 0.85);
+    border: 10px solid #7c5a3a;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(60, 40, 10, 0.18);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 70%;
+    min-width: 450px;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.error-message {
+  color: #b22222;
+  background: #fff3cd;
+  border: 1.5px solid #b22222;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin: 1rem auto 1.5rem auto;
+  max-width: 500px;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(178, 34, 34, 0.08);
+}

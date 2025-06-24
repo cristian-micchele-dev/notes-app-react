@@ -1,0 +1,56 @@
+.note-card {
+    width: 400px;
+    background-image: url('https://static7.depositphotos.com/1206476/770/i/450/depositphotos_7701770-stock-photo-light-brown-papyrus-sheet.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 3px solid #a67c52;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.2s;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(166, 124, 82, 0.15);
+}
+
+.card-title{
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #7c6f3a;
+    font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+
+[type="checkbox"]{
+    transform: scale(2) translateY(-2px);
+}
+
+.note-card:hover {
+    border: 3px solid black;
+    box-shadow: 0 0 10px;
+}
+
+.note-card:has(input:checked){
+    border: 3px solid lightgray;
+    background-color: lightgray;
+}
+
+.delete-btn {
+  background: #f7ecd0;
+  border: 2px solid #c2b280;
+  color: #a68a3b;
+  border-radius: 8px;
+  padding: 0.4rem 0.7rem;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+.delete-btn:hover {
+  background: #e6d3a3;
+  color: #b22222;
+  border: 2px solid #b22222;
+}

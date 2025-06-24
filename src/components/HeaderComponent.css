@@ -1,0 +1,57 @@
+/* Estilo elegante para HeaderComponent con colores de papiro */
+
+.header {
+  width: 100%;
+  background: linear-gradient(90deg, #f7ecd0 0%, #e6d3a3 100%);
+  color: #7c6f3a;
+  padding: 1.5rem 0;
+  box-shadow: 0 2px 12px rgba(166, 124, 82, 0.10);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 4px solid #a67c52;
+}
+
+.header-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-shadow: 0 2px 8px #fffbe7;
+  margin: 0 0 1.5rem 0;
+  color: #7c6f3a;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+.header-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.nav-list {
+  display: flex;
+  gap: 3.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav-link {
+  color: #7c6f3a;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.6rem 0.5rem;
+  border-radius: 0;
+  transition: color 0.2s, border-bottom 0.2s;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: #a67c52;
+  border-bottom: 2px solid #a67c52;
+}
