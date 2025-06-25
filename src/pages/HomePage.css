@@ -2,7 +2,7 @@
 .homepage-container {
   min-height: 100vh;
   width: 100%;
-  background-image: url('https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-498c-61f7-a150-9d27c9a9064a/raw?se=2025-06-24T01%3A16%3A32Z&sp=r&sv=2024-08-04&sr=b&scid=cb7ede28-4eb3-5a95-abb9-49b0c8a2e8d4&skoid=71e8fa5c-90a9-4c17-827b-14c3005164d6&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-23T09%3A22%3A01Z&ske=2025-06-24T09%3A22%3A01Z&sks=b&skv=2024-08-04&sig=b%2B2Rv0Zk1IrjEZnzh/nqfX05yCUmGFNYo0DIyCrbbw4%3D');
+  background-image: url('https://img.freepik.com/fotos-premium/textura-fondo-papiro-antiguo-fondo-pantalla-banner_118047-19158.jpg?w=1380');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -69,6 +69,58 @@
   color: #a67c52;
   border: 2px solid #7c5a3a;
   transform: translateY(-2px) scale(1.04);
+}
+
+.header-papiro {
+  width: 100%;
+  background: rgba(245, 245, 220, 0.97); /* beige papiro */
+  border-bottom: 4px solid #a67c52;
+  box-shadow: 0 4px 24px rgba(166, 124, 82, 0.13);
+  padding: 1.2rem 0 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeInDown 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px) scale(0.98);
+  }
+  60% {
+    opacity: 0.7;
+    transform: translateY(8px) scale(1.01);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.header-papiro h1, .header-papiro h2, .header-papiro nav, .header-papiro a {
+  color: #7c6f3a !important;
+  font-family: 'UnifrakturCook', 'Georgia', serif;
+  text-shadow: 0 2px 8px #fffbe7;
+}
+
+.header-papiro nav {
+  margin-top: 0.5rem;
+}
+
+.header-papiro a {
+  margin: 0 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+
+.header-papiro a:hover {
+  color: #a67c52 !important;
+  text-shadow: 0 4px 12px #f7ecd0;
 }
 
 footer {

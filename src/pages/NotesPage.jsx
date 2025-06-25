@@ -24,7 +24,7 @@ function NotesPage() {
     <HeaderComponent/>
 
     <section id="notes-page">
-    <div>NotesPage</div>
+    
     {error && <div className="error-message">{error}</div>}
     <ul className="note-list">
       <li>
